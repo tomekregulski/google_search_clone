@@ -1,0 +1,125 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(82, 82, 82);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+header {
+    padding: 25px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#about {
+    padding-right: 15px;
+}
+
+#gmail {
+    padding-right: 15px;
+}
+
+#images {
+    padding-right: 15px;
+}
+
+#apps {
+    padding-right: 15px;
+}
+
+#sign-in {
+    padding: 10px 20px;
+    background: rgb(3, 61, 185);
+    color: white;
+    border-radius: 10%;
+}
+
+#search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+input {
+    margin-top: 30px;
+    width: 600px;
+    height: 30px;
+}
+
+#search-btn {
+    margin-top: 35px;
+}
+
+.featured-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#youtube {
+    margin-right: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(233, 229, 220);
+    padding: 10px 40px 10px 40px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#advertising {
+    padding-right: 15px;
+}
+
+#business {
+    padding-right: 15px;
+}
+
+#privacy {
+    padding-right: 15px;
+}
+
+#terms {
+    padding-right: 15px;
+}
