@@ -65,11 +65,11 @@ nav {
     flex-direction: column;
     align-items: center;
     margin-top: 10%;
+    position: relative;
 }
 
 #search img {
     margin-bottom: 20px;
-    position: relative;
 }
 
 input{

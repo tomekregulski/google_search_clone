@@ -12,54 +12,56 @@
     <title>Google</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="nav-left">
-                <a href="#" id="about">About</a> 
-                <a href="#">Store</a> 
-            </div>
-            <div class="nav-right">
-                <a href="#"id="gmail">Gmail</a> 
-                <a href="#" id="images">Images</a> 
-                <a href="#" id="apps"><img src="./assets/images/apps.png" alt="apps" style="width:25px;"></a>
-                <a href="#" id="sign-in"><button type="button" class="btn btn-primary">&nbsp;&nbsp;&nbsp;&nbsp;Sign in&nbsp;&nbsp;&nbsp&nbsp;</button></a>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <section id="search">
-            <img src="./assets/images/google.png" alt="Google">
-            <input type="search" id="site-search" name="q" aria-label="Search through site content">
-            <img src="./assets/images/mag.jpg" alt="Maginfying Glass" id="mag">
-            <img src="./assets/images/mic.png" alt="Maginfying Glass" id="mic">
-            <div id="search-btn">
-                <button type="button" class="btn btn-light">&nbsp;&nbsp;Google Search&nbsp;&nbsp;</button>
-                <button type="button" class="btn btn-light">&nbsp;&nbsp;I'm Feeling Lucky&nbsp;&nbsp;</button>
-            </div>
-        </section>
-        <section class="featured-content">
-            <img src="./assets/images/yt_play.png" alt="YouTube" id="youtube">
-            <p id="featured text">
-                <a href="https://www.youtube.com/watch?v=vcsSc2iksC0">Watch Life in a Day</a>, a historic documentary about a single day in 2020
-            </p>
-        </section>
-    </main>
-    <footer>
-        <nav id="footer-left">
-            <a href="#" id="advertising">Advertising</a>
-            <a href="#" id="business">Business</a>
-            <a href="#">How Search Works</a>
-        </nav>
-        <nav id="footer-center">
-            <img src="./assets/images/leaf.png" alt="leaf" id="leaf">
-            <a href="#">Carbon neutral since 2007</a>
-        </nav>
-        <nav id="footer-right">
-            <a href="#" id="privacy">Privacy</a>
-            <a href="#" id="terms">Terms</a>
-            <a href="#">Settings</a>
-        </nav>
-    </footer>
+    <div class="container-fluid">
+        <header>
+            <nav>
+                <div class="nav-left">
+                    <a href="#" id="about">About</a> 
+                    <a href="#">Store</a> 
+                </div>
+                <div class="nav-right">
+                    <a href="#"id="gmail">Gmail</a> 
+                    <a href="#" id="images">Images</a> 
+                    <a href="#" id="apps"><img src="./assets/images/apps.png" alt="apps" style="width:25px;"></a>
+                    <button type="button" class="btn btn-primary p-0 px-4 py-1">Sign In</button>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section id="search">
+                <img src="./assets/images/google.png" alt="Google">
+                <input type="search" id="site-search" name="q" aria-label="Search through site content">
+                <img src="./assets/images/mag.jpg" alt="Maginfying Glass" id="mag">
+                <img src="./assets/images/mic.png" alt="Maginfying Glass" id="mic">
+                <div id="row">
+                    <button type="button" class="btn btn-light">Google Search</button>
+                    <button type="button" class="btn btn-light">I'm Feeling Lucky</button>
+                </div>
+            </section>
+            <section class="row justify-content-center">
+                <img src="./assets/images/yt_play.png" alt="YouTube" id="youtube">
+                <p class="align-self-center">
+                    <a href="https://www.youtube.com/watch?v=vcsSc2iksC0">Watch Life in a Day</a>, a historic documentary about a single day in 2020
+                </p>
+            </section>
+        </main>
+        <footer>
+            <nav id="footer-left">
+                <a href="#" id="advertising">Advertising</a>
+                <a href="#" id="business">Business</a>
+                <a href="#">How Search Works</a>
+            </nav>
+            <nav id="footer-center">
+                <img src="./assets/images/leaf.png" alt="leaf" id="leaf">
+                <a href="#">Carbon neutral since 2007</a>
+            </nav>
+            <nav id="footer-right">
+                <a href="#" id="privacy">Privacy</a>
+                <a href="#" id="terms">Terms</a>
+                <a href="#">Settings</a>
+            </nav>
+        </footer>
+    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
